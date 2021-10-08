@@ -19,7 +19,7 @@ func (a App) Register(c echo.Context) error {
 	if err != nil {
 		return c.JSON(err.Code, err)
 	}
-	return c.String(http.StatusCreated, "")
+	return c.String(http.StatusCreated, "Created")
 }
 
 func (a App) Login(c echo.Context) error {
