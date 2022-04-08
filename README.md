@@ -1,0 +1,2 @@
+# GolangApiMongoDB
+mongoDBをapiで操作できるようにする練習．ここではechoを使っている
